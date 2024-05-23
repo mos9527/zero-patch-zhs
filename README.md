@@ -25,8 +25,11 @@ Tools
 绝大部分工具的初始工作已由 [CommitteeOfZero](https://github.com/CommitteeOfZero) 完成；该项目做了一些修改，Fork 链接如下：
 
 https://github.com/mos9527/LanguageBarrier
+
 https://github.com/mos9527/mgsfontgen-dx
+
 https://github.com/mos9527/sg0-tools
+
 https://github.com/mos9527/sc3tools
 
 *~~很惭愧，只是做了点微小的工作（）~~*
