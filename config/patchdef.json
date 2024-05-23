@@ -1,0 +1,121 @@
+{
+  "__schema_version": 2,
+  "appdatadir": "Committee of Zero\\SG0Steam",
+  "patchName": "https://github.com/mos9527/zero-patch-zhs",
+  "patchVersion": "0.0.1",
+  "base": {
+    "hookText": true,
+    "improveDialogueOutlines": false,
+    "redoDialogueWordwrap": true,
+    "textureFiltering": true,
+    "exitBlackScreenFix": false,
+    "dialogueRedesignYOffsetShift": 5,
+    "dialogueRedesignLineHeightShift": 0,
+    "rineBlackNames": false,
+    "disableUnconfiguredControllers": false,
+    "shouldHideAutoSkip": false,
+    "usePoolAllocators": false,
+    "hijackLauncher": "Game.exe steinsgate0 ZHC",
+    "fmv": {
+      "fonts": [
+      ],
+      "subs": {
+      },
+      "videoRedirection": {
+      }
+    },
+    "physicalFileRedirection": {
+      "script.mpk": "cnscript.mpk"
+    },
+    "singleTextLineFixes": [
+      {"sigName":"tipHeaderRetIndexShadow", "dx":-5, "dy":4},
+      {"sigName":"tipHeaderRetIndexMain", "dx":-5, "dy":4},
+      {"sigName":"tipHeaderRetCategoryShadow", "dx":0, "dy":2},
+      {"sigName":"tipHeaderRetCategoryMain", "dx":0, "dy":2}
+    ],
+    "fileRedirection": {
+      "bg": {
+      },
+      "bgm": {
+      },
+      "system": {
+        "9": 0,
+        "11": 0,
+        "4": 1,
+        "7":2,
+        "22":3,
+        "23":4,
+        "25":5
+      }
+    }
+  },
+  "settings": {
+    "rineBlackNames": {
+      "type": "bool",
+      "setters": {
+        "rineBlackNames": true
+      }
+    },
+    "improveDialogueOutlines": {
+      "type": "bool",
+      "setters": {
+        "improveDialogueOutlines": true,
+        "outlinePadding": 4,
+        "outlineCellWidth": 38,
+        "outlineCellHeight": 38,
+        "outlineTextureId": 350,
+        "fontOutlineAFileName": "font-outline_A.dds",
+        "fontOutlineBFileName": "font-outline_B.dds"
+      }
+    },
+    "hqFmvAudio": {
+      "type": "bool",
+      "setters": {
+        "fmv": {
+          "audioRedirection": {
+          }
+        }
+      }
+    },
+    "karaokeSubs": {
+      "type": "choice",
+      "choices": {
+        "all": {
+          "fmv": {
+            "subs": {
+            }
+          }
+        },
+        "karaonly": {
+          "fmv": {
+            "subs": {
+            }
+          }
+        },
+        "tlonly": {
+          "fmv": {
+            "subs": {
+            }
+          }
+        }
+      }
+    },
+    "hideAutoSkip": {
+      "type": "bool",
+      "setters": {
+        "shouldHideAutoSkip": true
+      }
+    },
+    "honorifics": {
+      "type": "bool",
+      "setters": {
+        "physicalFileRedirection": {
+        },
+        "fileRedirection": {
+          "bg": {
+          }
+        }
+      }
+    }
+  }
+}

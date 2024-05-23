@@ -1,0 +1,39 @@
+
+[color index="800000"]已传送[color index="A01F0000"]D-RINE
+
+
+
+
+[color index="800000"]在标题菜单中追加了[color index="A01F0000"]『EXTRA』[color index="800000"]。
+
+[color index="A01F0000"]CLEAR LIST
+[color index="800000"]已添加到“EXTRA”菜单中。
+[color index="A01F0000"]CG LIBRARY
+[color index="800000"]已添加到“EXTRA”菜单中。
+[color index="A01F0000"]SOUND LIBRARY
+[color index="800000"]已添加到“EXTRA”菜单中。
+[color index="A01F0000"]MOVIE LIBRARY
+[color index="800000"]已添加到“EXTRA”菜单中。
+[color index="A01F0000"]TIPS
+[color index="800000"]已添加到“EXTRA”菜单中。
+
+[color index="800000"]已开放『TIPS』的[color index="A01F0000"]新项目[color index="800000"]。
+
+
+[color index="800000"]在『CG LIBRARY』中开放了[color index="A01F0000"]新项目[color index="800000"]。
+
+[color index="800000"]RINE触发器的『设定』→『壁纸设定』中
+[color index="800000"]追加了[color index="A01F0000"]新的壁纸[color index="800000"]。
+
+[color index="A01F0000"]【盟誓的文艺復兴】[color index="800000"] 通关
+[color index="A01F0000"]【存在证明的自动机械】[color index="800000"] 通关
+[color index="A01F0000"]【相互回归的鹅妈妈】[color index="800000"] 通关
+[color index="A01F0000"]【无限远点的牵牛星】[color index="800000"] 通关
+[color index="A01F0000"]【私秘镜里的污点】[color index="800000"] 通关
+[color index="A01F0000"]【交差座标的星尘】[color index="800000"] 通关
+[color index="810000"]【盟誓的文艺復兴】[color index="800000"] 通关
+[color index="810000"]【存在证明的自动机械】[color index="800000"] 通关
+[color index="810000"]【相互回归的鹅妈妈】[color index="800000"] 通关
+[color index="810000"]【无限远点的牵牛星】[color index="800000"] 通关
+[color index="810000"]【私秘镜里的污点】[color index="800000"] 通关
+[color index="810000"]【交差座标的星尘】[color index="800000"] 通关

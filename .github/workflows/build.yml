@@ -1,0 +1,55 @@
+name: Build And Release
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    if: "contains(github.event.head_commit.message, 'Version')"
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Build Script
+        run: .\build.ps1
+        shell: powershell
+
+      - name : Get Version
+        id   : get_version
+        run  : |        
+          $message = "${{ github.event.head_commit.message }}"
+          $lines = $message.Split([Environment]::NewLine)
+          $version = $lines[0].Split()[1]
+          
+          Write-Output "::set-output name=version::$version"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.get_version.outputs.version }}
+          release_name: Version ${{ steps.get_version.outputs.version }}
+
+      - uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{github.workspace}}/Release.zip
+          asset_name: Release.zip
+          asset_content_type: application/octet-stream
+
+      - uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
