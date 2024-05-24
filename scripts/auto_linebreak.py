@@ -1,7 +1,15 @@
+'''对单行过长的文本进行自动分行处理
+
+该优化将保证被划分的行数为LINECOUNTMAX，同时保证行长度方差最小
+注：本脚本将覆写原有脚本
+
+usage:
+scripts\script> python auto_linebreak.py
+'''
 import os, re, itertools, statistics
-LINEWIDTH = 40
+LINEWIDTH = 30
 LINECOUNTMAX = 3
-LONGTEXT = re.compile(r'(?<=[\]^])([^\[\]]{%d,})(?=\[)' % LINEWIDTH)
+LONGTEXT = re.compile(r'([^\[\]]{%d,})(?=\[)' % LINEWIDTH)
 BREAK = '[linebreak]' # or \u83
 BREAKABLES = set('。,.:;!?⋯一')
 def optimize_line(line, span):
@@ -30,7 +38,7 @@ def process_line(line):
         ans = ""
         bps = sorted(breakpoints | {0, len(line)})
         for p in range(0, len(bps) - 1):
-            ans += line[bps[p]:min(bps[p+1] + 1,len(line))]
+            ans += line[bps[p] + (p != 0):bps[p+1]]
             if bps[p+1] != len(line): ans += BREAK            
         return ans
     else:
