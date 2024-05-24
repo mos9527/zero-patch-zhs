@@ -230,7 +230,7 @@
 [name]莱耶丝[line]那么,我有一个提案。冈部伦太郎⋯⋯你,要不要加入DURPA?[%p]
 [name]伦太郎[line]什么⋯⋯?[%p]
 [name]莱耶丝[line]哎呀,看你这意外的表情。你以为我是为了什么才特意跟你说这些的啊。[%p]
-[name]莱耶丝[line]作为冥土的礼物⋯⋯什么的,这种事只会发生在日本的『SAMURAI CINEMA(武士剧)』里吧?[%p]
+[name]莱耶丝[line]作为冥土的礼物⋯⋯什么的,这种事只会发生在日本的『SAMURAI CINEMA(武士剧)』里吧?[%p]
 [name]伦太郎[line]⋯⋯⋯⋯[%p]
 [name]莱耶丝[line]不用担心。我们也不论国籍什么的,如果你想要的话,就算是绿卡也能给你准备好。[%p]
 [name]伦太郎[line]也就是说,你承认我⋯⋯我凤凰院凶真的才能了吗⋯⋯[%p]
@@ -428,7 +428,7 @@
 [name]伦太郎[line]删掉!桶子!拜托了!把红莉栖––![%p]
 [name]伦太郎[line]让那家伙解脱吧!![%p]
 [name]至[line]Okey-dokey!![%p]
-[name]莱耶丝[line]Come into me, Kurisu.[%p]
+[name]莱耶丝[line]Come into me, Kurisu.[%p]
 莱耶丝用手指轻触键盘。[%p]
 [name]伦太郎[line]啊⋯⋯⋯⋯[%p]
 [name]铃羽[line]⋯⋯⋯⋯[%p]

@@ -346,7 +346,7 @@
 [name]真帆[line]谢谢。这句话我就坦率地收下了。[%p]
 [name]真帆[line]剩下的问题就是到底能不能实际运行了⋯⋯但是这点是不能做测试的呢。[%p]
 [name]伦太郎[line]是啊。[%p]
-[name]至[line]你可得要请我吃3次[color index="280AA02D1400"]Kitchen Jiro[color index="800000"]喔。[%p]
+[name]至[line]你可得要请我吃3次[color index="280AA02D1400"]Kitchen Jiro[color index="800000"]喔。[%p]
 这种要求根本小事一桩。[%p]
 总之,这样条件就集齐了。[%p]
 剩下的就是––调查清楚那群人的身份。[%p]

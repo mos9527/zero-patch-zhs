@@ -327,7 +327,7 @@
 [name]真帆[line]没办法哦。你看。[%p]
 真帆拿起盒子,转到另一面给我看。[%p]
 [name]伦太郎[line]什什么这是?[%p]
-[name]真帆[line]“[color index="280AA02D1400"]Der Alte w[ü]rfelt nicht.[color index="800000"]”[%p]
+[name]真帆[line]“[color index="280AA02D1400"]Der Alte w[ü]rfelt nicht.[color index="800000"]”[%p]
 [name]真帆[line]『上帝不会掷骰子』。爱因斯坦的名言。[%p]
 [name]真帆[line]因为写了这句话上去,所以桐生打开不了盒子。对吧?[%p]
 [name]萌郁[line]⋯⋯是的。[%p]

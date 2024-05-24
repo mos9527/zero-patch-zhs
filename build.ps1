@@ -4,7 +4,7 @@ if ($args -notcontains '--no-update') {
     Remove-Item -Path ".bin" -Recurse -ErrorAction Ignore | Out-Null
     New-Item -ErrorAction Ignore -ItemType Directory -Path ".bin" | Out-Null
     # sc3tools
-    Invoke-WebRequest -Uri "https://github.com/mos9527/sc3tools/releases/download/0.0.2/Release.zip" -OutFile .\.bin\sc3tools.zip
+    Invoke-WebRequest -Uri "https://github.com/mos9527/sc3tools/releases/download/0.0.3/Release.zip" -OutFile .\.bin\sc3tools.zip
     Expand-Archive -Path .\.bin\sc3tools.zip -DestinationPath .\.bin\sc3tools    
     # mpk
     Invoke-WebRequest -Uri "https://github.com/mos9527/sg0-tools/releases/download/latest/mpk.exe" -OutFile .\.bin\mpk.exe
