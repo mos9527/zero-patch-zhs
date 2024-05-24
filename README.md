@@ -3,10 +3,14 @@
 
 Features
 ---
-适用于 Steam 版本 1.0.0.0
-- 新简中字库（字体：Noto Sans CJK JP）；带字体描边修正
-- PlayStation (Dualshock/Dualsense) 键位图标 （移植自 PS3 日版镜像 BLJM61303）
-- 跳过启动器 （Launcher.exe）
+在 [STEINS;GATE 0 Steam Patch](https://sonome.dareno.me/projects/sg0-steam.html) 基础上，除引入中文支持外，本 Patch 还完成了如下额外工作
+|功能|Before|After|
+|--|--|--|
+|PS 按键提示|![image](https://github.com/mos9527/zero-patch-zhs/assets/31397301/97d2a96f-fac4-44c1-a41d-f88ce03bd6c6)|![image](https://github.com/mos9527/zero-patch-zhs/assets/31397301/56b7d8ad-781f-48ab-8987-74512c6ed9cf)|
+|字体描边|![image](https://github.com/mos9527/zero-patch-zhs/assets/31397301/ef2b38d0-71ed-4cbb-8a16-3b88e7b200f1)|![image](https://github.com/mos9527/zero-patch-zhs/assets/31397301/e777a389-7fca-4d32-b5ba-6a0cbcb72080)|
+|长句分行|![image](https://github.com/mos9527/zero-patch-zhs/assets/31397301/13a0e322-47ce-4e35-bc42-3b89d683d536)|![image](https://github.com/mos9527/zero-patch-zhs/assets/31397301/8640ab33-2038-48b9-ab7c-cae66fef28c2)|
+|跳过启动器|N/A|N/A|
+|部分汉化内容润色|N/A|N/A|
 
 Todo
 ---
@@ -20,9 +24,14 @@ Usage
 - 解压到游戏根目录
 - Have fun!
 
+Build
+---
+- Clone 本 Repo
+- 运行 `build.ps1` 即可
+
 Tools
 ---
-绝大部分工具的初始工作已由 [CommitteeOfZero](https://github.com/CommitteeOfZero) 完成；该项目做了一些修改，Fork 链接如下：
+绝大部分工具的初始工作已由 [CommitteeOfZero](https://github.com/CommitteeOfZero) 完成；该项目对其做了一些修改，Fork 链接如下：
 
 https://github.com/mos9527/LanguageBarrier
 
