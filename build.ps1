@@ -7,7 +7,7 @@ if ($args -notcontains '--no-update') {
     Invoke-WebRequest -Uri "https://github.com/mos9527/sc3tools/releases/download/0.0.4/Release.zip" -OutFile .\.bin\sc3tools.zip
     Expand-Archive -Path .\.bin\sc3tools.zip -DestinationPath .\.bin\sc3tools    
     # mpk
-    Invoke-WebRequest -Uri "https://github.com/mos9527/sg0-tools/releases/download/latest/mpk.exe" -OutFile .\.bin\mpk.exe
+    Invoke-WebRequest -Uri "https://github.com/mos9527/mages-tools/releases/download/latest/mpk.exe" -OutFile .\.bin\mpk.exe
     # LanguageBarrier
     Invoke-WebRequest -Uri "https://github.com/mos9527/LanguageBarrier/releases/download/latest/dinput8.dll" -OutFile .\.bin\dinput8.dll
     Invoke-WebRequest -Uri "https://github.com/mos9527/LanguageBarrier/releases/download/latest/VSFilter.dll" -OutFile .\.bin\VSFilter.dll

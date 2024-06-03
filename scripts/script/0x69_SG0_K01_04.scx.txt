@@ -29,7 +29,7 @@
 [name]伦太郎[line]那已经成了她的一种仪式。[%p]
 [name]篝[line]仪式?[%p]
 [name]伦太郎[line]啊。真由理从小就跟着她奶奶[linebreak]所以她奶奶去世了之后[linebreak]好像掉了魂似的。[%p]
-[name]伦太郎[line]然后有差不多半年的时间没有跟别人说过话[linebreak]每天来这里,[linebreak]整天在发呆。[%p]
+[name]伦太郎[line]然后有差不多半年的时间没有跟别人说过话[linebreak]每天来这里[linebreak]一整天在发呆。[%p]
 [name]伦太郎[line]⋯⋯看起来就好像,希望自己也和奶奶一起去那样。[%p]
 [name]篝[line]不过,冈部把她拉回来了吧?[%p]
 [name]伦太郎[line]呃!?[%p]

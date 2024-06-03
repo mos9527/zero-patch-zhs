@@ -9,7 +9,7 @@
 [name]真帆[line]他在35年的悲剧短暂的生涯中[linebreak]凭借绝世才华创作了600多首被后世传颂的音乐作品[linebreak][%p]
 [name]真帆[line]难道阿玛多伊斯真的人如其名[linebreak]只是因为被神眷顾,就获得天赋[linebreak]成为一个特别的人吗?[%e]
 [name]真帆[line]我并不认同这个观点。[%p]
-[name]真帆[line][margin top="38"]毋庸置疑他是一名天才[linebreak]不过,毫无疑问阿玛多伊斯[linebreak]定也付出了相对的努力与辛劳。[%p]
+[name]真帆[line][margin top="38"]毋庸置疑他是一名天才[linebreak]不过[linebreak]毫无疑问阿玛多伊斯一定也付出了相对的努力与辛劳。[%p]
 [name]真帆[line]一块原石无论多么完美[linebreak]倘若未经过足够的研磨是没办法成为宝石[linebreak][%p]
 [name]真帆[line]如果把他的丰功伟绩全归功于那卓越的天资[linebreak]筒直侮辱了他的努力与血汗[linebreak][%e]
 [name]真帆[line]但是,与此同时[linebreak]要达到莫扎特那种境界[linebreak]那么天生就得拥有与他同等级别的原石。[%p]

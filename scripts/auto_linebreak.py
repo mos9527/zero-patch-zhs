@@ -11,7 +11,7 @@ LINEWIDTH = 30
 LINECOUNTMAX = 3
 LONGTEXT = re.compile(r'([^\[\]]{%d,})(?=\[)' % LINEWIDTH)
 BREAK = '[linebreak]' # or \u83
-BREAKABLES = set('。,.:;!?⋯一')
+BREAKABLES = set('。,.:;!?')
 def optimize_line(line, span):
     # Split line into multiple lines, while minimizing variance of line lengths
     # This is O(C(n, LINECOUNTMAX - 1))...yikes
