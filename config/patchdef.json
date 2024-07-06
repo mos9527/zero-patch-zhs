@@ -6,7 +6,7 @@
   "base": {
     "hookText": true,
     "improveDialogueOutlines": false,
-    "redoDialogueWordwrap": true,
+    "redoDialogueWordwrap": false,
     "textureFiltering": true,
     "exitBlackScreenFix": false,
     "dialogueRedesignYOffsetShift": 5,
