@@ -23,7 +23,7 @@
       },
       "videoRedirection": {
       }
-    },
+    }, 
     "physicalFileRedirection": {
       "script.mpk": "cnscript.mpk"
     },
